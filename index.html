@@ -1,9 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Pacifico|Montserrat|Gugi" rel="stylesheet">
 
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <style>
+        .navbar-fixed {
+            position: absolute;
+            z-index: 999999999
+        }
+    </style>
+    <div class="navbar-fixed mt-20">
+        <nav class="transparent z-depth-0">
+            <div class="nav-wrapper">
+                <div class="row">
+                    <div class="col s12"> <a href="javascript:void(0)" class="brand-logo ml md-screen" target="_blank"
+                            style="font-family: 'Pacifico'">Reynaldi Fikri Hidayat</a>
+                        <ul class="right hide-on-med-and-down mr" style="font-family: 'Montserrat'">
+                            <li class="nav-button"><a href="#skills">SKILL</a></li>
+                            <li class="nav-button"><a href="#portofolio">PORTOFOLIO</a></li>
+                            <li class="nav-button"><a href="#about">ABOUT</a></li>
+                            <li class="nav-button"><a href="#doc">DOCUMENT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main title">
+        <div style="font-family: 'Montserrat';">
+            <h3>Welcome To My Portofolio</h3>
+            <h3>I am Front-End Developer</h3>
+        </div><a href="#skills" class="waves-effect waves-light z-depth-2 btn-large yellow darken-1"
+            style="font-weight: 700;">TELL ME MORE</a>
+    </div><img class="img" src="banner.jpg">
+    <div class="center" style="margin-top:40px;">
+        <h2 style="margin-bottom: 0.7em;font-family: Gugi;">SKILLS</h2>
+        <div class="center">
+            <div id="skills" class="section scrollspy">
+                <ul class="ulj">
+                    <li class="lij">PHP <span class="center"></span></li>
+                    <div class="box">
+                        <div id="one"></div>
+                    </div>
+                    <li class="lij">CSS</li>
+                    <div class="box">
+                        <div id="two"></div>
+                    </div>
+                    <li class="lij">JQUERY</li>
+                    <div class="box">
+                        <div id="three"></div>
+                    </div>
+                    <li class="lij">CODE IGNITER</li>
+                    <div class="box">
+                        <div id="four"></div>
+                    </div>
+                    <li class="lij">LARAVEL</li>
+                    <div class="box">
+                        <div id="five"></div>
+                    </div>
+                    <li class="lij">MYSQL</li>
+                    <div class="box">
+                        <div id="six"></div>
+                    </div>
+                    <li class="lij">PHOTOSHOP</li>
+                    <div class="box">
+                        <div id="seven"></div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="center portofolio" id="portofolio" class="section scrollspy">
+        <h2 class="center" style="margin-bottom:100px;font-family: Gugi;"><br>PORTOFOLIO</h2>
+        <div class="container row " id="project">
+            <div class="col s12 m4">
+                <div class="card z-depth-3">
+                    <div class="card-image"> <img src="img/car.svg" class="img-portofolio"> <span
+                            class="card-title"></span></div>
+                    <div class="card-content">
+                        <p>Rental Mobil Berbasis Codeigniter</p>
+                    </div>
+                    <div class="card-action"> <a href="#">Repository</a></div>
+                </div>
+            </div>
+            <h4 id="about" style="font-family: 'Gugi'">More ? in my <a href="https://github.com/raynald22"
+                    target="_blank">Github</a> account</h4> <br> <br>
+        </div>
+        <div class="center mt-20" class="section scrollspy">
+            <h3 style="font-family: Gugi;">ABOUT</h3>
+        </div>
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-event">
+                    <div class="card timeline-content">
+                        <div class="card-image waves-effect waves-block waves-light"> <img class="activator"
+                                src="img/graduation.svg" style="width: 50%;margin:20px auto;"></div>
+                        <div class="card-content"> <span
+                                class="card-title activator grey-text text-darken-4">2013-2016<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p>I'am graduated from vocational school in SMA Ksatrya</p>
+                        </div>
+                        <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Card Title<i
+                                    class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-badge blue white-text"><i class="material-icons">language</i></div>
+                </div>
+                <div class="timeline-event">
+                    <div class="card timeline-content">
+                        <div class="card-image waves-effect waves-block waves-light"> <img class="activator"
+                                src="img/programming.svg" style="width: 50%;margin:20px auto;"></div>
+                        <div class="card-content"> <span
+                                class="card-title activator grey-text text-darken-4 center">August
+                                - Sept 2018</span>
+                            <p>Internship as Arsip at BASARNAS</p>
+                        </div>
+                        <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Card Title<i
+                                    class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-badge red white-text"><i class="material-icons">work</i></div>
+                </div>
+            </div>
+        </div> <br> <Br>
+        <div class="container">
+            <div class="row center" id="doc">
+                <div class="col s6"> <a
+                        href="https://drive.google.com/file/d/1ibS6pcOCLWCVtDH3N0LExEH7PUDGr4Uk/view?usp=sharing"
+                        class="btn" style="width: 100%;">CV</a></div>
+                <div class="col s6"> <button class="btn" style="width: 100%;">CERTIFICATE</button></div>
+            </div>
+        </div>
+        <footer class="page-footer transparent">
+            <div class="footer-copyright blue accent-2">
+                <div class="container"> © 2019 Copyright Reynaldi, with love for a better web <a
+                        class="grey-text text-lighten-4 right" href="#!"><b id="date">reynaldifkr@gmail.com</b></a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/main.min.js"></script>
+        <!--<script src="https://use.fontawesome.com/2e37f68334.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 
 </html>
